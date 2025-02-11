@@ -1,0 +1,9 @@
+[flake8]
+max-line-length=88
+extend-exclude=
+    migrations/*
+# NOTE: Rules that may conflict with Black, or at least may not be necessary
+ignore=
+    E203
+    E501
+    W503
